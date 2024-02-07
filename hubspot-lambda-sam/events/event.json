@@ -1,0 +1,42 @@
+{
+  "version": "2.0",
+  "routeKey": "$default",
+  "rawPath": "/",
+  "rawQueryString": "email=email@someemail.com",
+  "headers": {
+    "x-amzn-tls-cipher-suite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "x-amzn-tls-version": "TLSv1.2",
+    "x-amzn-trace-id": "Root=1-65c2f306-76148e7e7448911737eecf06",
+    "x-forwarded-proto": "https",
+    "postman-token": "986a3423-2425-4662-a88e-353fa03641dd",
+    "host": "ju43z6ob4j4vev5zwnr6t7tg4m0lznob.lambda-url.us-east-1.on.aws",
+    "x-forwarded-port": "443",
+    "x-forwarded-for": "99.232.139.24",
+    "cache-control": "no-cache",
+    "accept-encoding": "gzip, deflate, br",
+    "accept": "*/*",
+    "user-agent": "PostmanRuntime/7.36.1"
+  },
+  "queryStringParameters": {
+    "email": "email@someemail.com"
+  },
+  "requestContext": {
+    "accountId": "anonymous",
+    "apiId": "ju43z6ob4j4vev5zwnr6t7tg4m0lznob",
+    "domainName": "ju43z6ob4j4vev5zwnr6t7tg4m0lznob.lambda-url.us-east-1.on.aws",
+    "domainPrefix": "ju43z6ob4j4vev5zwnr6t7tg4m0lznob",
+    "http": {
+      "method": "GET",
+      "path": "/",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "99.232.139.24",
+      "userAgent": "PostmanRuntime/7.36.1"
+    },
+    "requestId": "615ece91-ba35-4347-84eb-6ebe4c983768",
+    "routeKey": "$default",
+    "stage": "$default",
+    "time": "07/Feb/2024:03:03:34 +0000",
+    "timeEpoch": 1707275014441
+  },
+  "isBase64Encoded": false
+}

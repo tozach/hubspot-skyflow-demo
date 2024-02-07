@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  hubspot-skyflow-query
+
+  Sample SAM Template for sam-app
+
+Resources:
+  HubSpotLambda:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: hubspot-lambda-sam/
+      Handler: app.lambda_handler
+      Runtime: python3.9
+      Timeout: 60
+      FunctionName: hubspot-lambda-sam
+      FunctionUrlConfig:
+        AuthType: NONE
+      Architectures:
+        - arm64
