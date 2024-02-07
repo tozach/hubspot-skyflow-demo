@@ -19,6 +19,8 @@ More details in this [blog](https://www.skyflow.com/post/hipaa-compliance-in-hub
 Start here to [create a Vault](https://docs.skyflow.com/get-started/)
 For the demo, we will use a predefined Vault and it can be created from an existing schema. 
 
+The schema is available in ```vault-schema``` folder
+
 ![Create a vault from a schema](files/create_vault.png)
 
 ### Create a service account
