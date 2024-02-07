@@ -19,7 +19,7 @@ More details in this [blog](https://www.skyflow.com/post/hipaa-compliance-in-hub
 Start here to [create a Vault](https://docs.skyflow.com/get-started/)
 For the demo, we will use a predefined Vault and it can be created from an existing schema. 
 
-![Create a vault from a schema](/images/create_vault.png)
+![Create a vault from a schema](files/create_vault.png)
 
 ### Create a service account
 
@@ -57,10 +57,10 @@ Follow instructions in the folder ```hubspot-lamda-sam``` to deploy the AWS lamb
 
 ### Create the HubSpot App and map properties
 
-![Map properties](/images/hubspot_app.png)
+![Map properties](files/map_properties.png)
 
 Also map the fetch url and configure email to be passed as a property. The email is used to query the record fom the Vault
 
-![Map properties](/images/hubspot_query_param.png)
+![Map properties](files/map_email.png)
 
 ### Authorize CRM App
