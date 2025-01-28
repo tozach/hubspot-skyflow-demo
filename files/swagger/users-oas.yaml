@@ -21,4 +21,4 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './pet.yaml'
+                $ref: 'pet.yaml'
